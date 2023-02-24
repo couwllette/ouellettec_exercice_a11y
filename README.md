@@ -1,12 +1,12 @@
 # Exercice d'accessibilité des contenus
 
 ## Équipe
-- Prénom nom
+- Cloé Ouellette
 - Prénom nom
 
 ## Objectifs
 - Expérimenter le versionnage de fichiers avec GIT
-- Acquérire des compétences en accessibilité des contenus
+- Acquérir des compétences en accessibilité des contenus
 
 ## Prérequis
 - Avoir lu et pris connaissance des notes du cours 10
