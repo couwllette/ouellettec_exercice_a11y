@@ -35,23 +35,23 @@ Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Co
 Les textes alternatifs sont effectivement adéquats. Chaque image a son propre texte alternatif en plus d'une description dessous. 
 Pour le logo, étant donné que qu'il est cliquable et qu'il permet de retourner à la page d'accueil, j'ajouterais dans le texte alternatif "home" ou "accueil". 
 
-[capture-écran](images/screencapture-sail-ca-fr-chaussures-enfant-chaussures-de-sport-2023-02-24-10_01_07.png)
+[capture-écran](images/1-textes-alternatifs/1-2/screencapture-sail-ca-fr-chaussures-enfant-chaussures-de-sport-2023-02-24-10_01_07.png)
 - https://amzn.to/2NnbKPN 
 
 Le site amazon a bel et bien intégré des textes alternatifs. Chaque image a son propre texte alternatif, en plus du texte d'une description sous les articles (images). Cependant, le logo d'Amazon ne contient aucun texte, ce qui rend la tâche de navigation plus complexe. 
 
-[capture-écran](images/screencapture-amazon-ca-fr-s-2023-02-24-10_06_05.png)
+[capture-écran](images/1-textes-alternatifs/1-2/screencapture-amazon-ca-fr-s-2023-02-24-10_06_05.png)
 - https://www.lesoleil.com/  
 
 Bons points : Chaque article / image contient son propre texte alternatif. De plus, même la navigation principale en tête du site en contient. 
 Ajustement :  Il faudrait ajouter des mots-clés comme "accueil" pour indiquer la destination si on clique sur le lien. 
 
-[capture-écran](images/screencapture-lesoleil-2023-02-24-10_09_23.png)
+[capture-écran](images/1-textes-alternatifs/1-2/screencapture-lesoleil-2023-02-24-10_09_23.png)
 - https://www.rad.ca/  
 
 Le site ne contient aucun texte alternatif. La plupart des images ont été intégrés comme "background-image". Des figcaptions auraient peut-etre pu etre intégré à ce moment la. Cependant, j'ai l'impression que les images en tant que tel sont là que pour ajouter des éléments visuels. Elle répète, selon moi, une information présente dans le texte adjacent.
 
-[capture-écran](images/screencapture-rad-ca-2023-02-24-10_12_22.png)
+[capture-écran](images/1-textes-alternatifs/1-2/screencapture-rad-ca-2023-02-24-10_12_22.png)
 
 Astuce  
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
@@ -65,9 +65,10 @@ Pour chaque problème de contraste identifié,
 documenter le problème par une capture-écran incluant dans son cadre, la zone fautive à gauche et à droite, les résultats détaillés de l’outil, tel que démontré dans l’exemple ci-dessous.
 
 Sauvegarder les captures dans le dossier images. Compléter les liens ci-dessous:
-- [Contraste insuffisant 1](images/...)
-- [Contraste insuffisant 2](images/...)
-- [Contraste insuffisant 3](images/...)
+- [Contraste insuffisant 1](images/2-contrastes-couleurs/capture1.png)
+- [Contraste insuffisant 2](images/2-contrastes-couleurs/capture2.png)
+- [Contraste insuffisant 3](images/2-contrastes-couleurs/capture3.png)
+- [Contraste insuffisant 4](images/2-contrastes-couleurs/capture4.png)
 
 ### 3. Structurer avec les h1-h6 une table des matières
 
