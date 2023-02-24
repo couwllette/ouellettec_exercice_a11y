@@ -31,25 +31,27 @@ Pour vous guider dans le choix des balises, des attributs et des valeurs d'attri
 Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Commenter votre observation. Pourrait-on faire mieux ? Donnez un exemple de ce que vous proposeriez.
 
 - https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air 
------
------
------
-[capture-écran]()
+
+Les textes alternatifs sont effectivement adéquats. Chaque image a son propre texte alternatif en plus d'une description dessous. 
+Pour le logo, étant donné que qu'il est cliquable et qu'il permet de retourner à la page d'accueil, j'ajouterais dans le texte alternatif "home" ou "accueil". 
+
+[capture-écran](images/screencapture-sail-ca-fr-chaussures-enfant-chaussures-de-sport-2023-02-24-10_01_07.png)
 - https://amzn.to/2NnbKPN 
------
------
------
-[capture-écran]()
+
+Le site amazon a bel et bien intégré des textes alternatifs. Chaque image a son propre texte alternatif, en plus du texte d'une description sous les articles (images). Cependant, le logo d'Amazon ne contient aucun texte, ce qui rend la tâche de navigation plus complexe. 
+
+[capture-écran](images/screencapture-amazon-ca-fr-s-2023-02-24-10_06_05.png)
 - https://www.lesoleil.com/  
------
------
------
-[capture-écran]()
+
+Bons points : Chaque article / image contient son propre texte alternatif. De plus, même la navigation principale en tête du site en contient. 
+Ajustement :  Il faudrait ajouter des mots-clés comme "accueil" pour indiquer la destination si on clique sur le lien. 
+
+[capture-écran](images/screencapture-lesoleil-2023-02-24-10_09_23.png)
 - https://www.rad.ca/  
------
------
------
-[capture-écran]()
+
+Le site ne contient aucun texte alternatif. La plupart des images ont été intégrés comme "background-image". Des figcaptions auraient peut-etre pu etre intégré à ce moment la. Cependant, j'ai l'impression que les images en tant que tel sont là que pour ajouter des éléments visuels. Elle répète, selon moi, une information présente dans le texte adjacent.
+
+[capture-écran](images/screencapture-rad-ca-2023-02-24-10_12_22.png)
 
 Astuce  
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
