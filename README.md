@@ -85,9 +85,7 @@ __Tutoriel sur les formulaires du w3c__
 
 Réponse : 
 
-----
-----
-----
+Pour ce site, oui, la table des matières du document est correcte. Le `h1` représente le sujet et non le titre de la page. Les `h2` viennent à la suite du `h1` et ils sont bel et bien des sous-titres. 
 
 __L’affaire Savtchenko__ 
 [Article](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko.pdf)  
@@ -95,10 +93,7 @@ __L’affaire Savtchenko__
   
 Réponse : 
 
-----
-----
-----
-
+Pour ce site, malheureusement se retrouve quelques lacunes dans la table des matières du document. La hiérarchisation n'est pas tout à fait au point. Les informations communes dans l'en-tête de la page ne devraient pas se retrouver dans la hiérarchie de titres. Donc, c'est une erreur en soi d'avoir inclu les éléments de la navigation principale comme des `h2`. Par conséquent, le `h1` est lui correcte étant donné que c'est le titre de l'article. Les `h2` qui suivent jusqu'à "Échange de prisonniers entre la Russie et l'Ukraine" sont bons sauf le premier. Ce dernier n'est pas un sous-titre. Les `h2` qui suivent sont fautifs et devraient plutot etre des `h3` ou ...
 
 #### 3.2 S'exercer à bien structurer
 
@@ -106,7 +101,7 @@ Réponse :
 - Ajouter un calque de blanc à 50% de transparence
 - Dans un 3e calque, par-dessus, identifiez les titres et leurs niveaux (h1-h6) de manière voyante (couleur rouge et font-size suffisant)
 - Sauvegarder au format .psd ou .png dans le même dossier.
-- [Relier ce fichier-réponse ici]()
+- [Relier ce fichier-réponse ici](images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur.pdf)
 
 ### 4. Baliser un tableau de données pour qu’il soit accessible
 
