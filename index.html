@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -20,8 +21,9 @@
 
     <img src="images/1-textes-alternatifs/1-1/d0dd9976.png" alt="">
 
-    <img src="images/1-textes-alternatifs/1-1/pub-assurances.jpg" alt="Publicité Banque Nationale : Recevez jusqu'à 15% de rabais en complétant votre soumission en ligne. Certaine conditions s'appliquent.">
-        
+    <img src="images/1-textes-alternatifs/1-1/pub-assurances.jpg"
+        alt="Publicité Banque Nationale : Recevez jusqu'à 15% de rabais en complétant votre soumission en ligne. Certaine conditions s'appliquent.">
+
     <figure>
         <figcaption>Population India - 2014</figcaption>
         <img src="images/1-textes-alternatifs/1-1/choisir-1-pyramide-des-ages/india-population-pyramid-2014.gif"
@@ -45,7 +47,7 @@
     <hr>
 
     <table>
-        <caption>Recommandations de consommation de poissons selon l'âge, le sexe et la condition physique</caption>
+        <caption class="h1">Recommandations de consommation de poissons selon l'âge, le sexe et la condition physique</caption>
         <tr>
             <td></td>
             <th id="population">Population générale</th>
@@ -57,38 +59,52 @@
         </tr>
         <tr>
             <th id="recommandation">Recommandation générale</th>
-            <td headers="recommandation population fillettesAdolescentes femmes_ageProcreer femmes_allaitantes femmesEnceintes_Enfants autres">Consommer 2 portions de poissons par semaine, dont une à forte teneur en EPA et DHA (saumon*, sardine*, maquereau*, hareng*, truite fumée**), en variant les espèces et les lieux d’approvisionnement </td>
+            <td class="color" colspan="6" headers="recommandation population fillettesAdolescentes femmes_ageProcreer femmes_allaitantes femmesEnceintes_Enfants autres">
+                Consommer 2 portions de poissons par semaine, dont une à forte teneur en EPA et DHA (saumon*, sardine*,
+                maquereau*, hareng*, truite fumée**), en variant les espèces et les lieux d’approvisionnement </td>
         </tr>
         <tr>
-            <th id="poissons_eauDouce">Poissons d’eau douce fortement bioaccumulateurs (anguille, barbeau, brème, carpe, silure)</th>
-            <td headers="poissons_eauDouce population">À limiter à 2 fois par mois</td>
-            <td headers="poissons_eauDouce fillettesAdolescentes femmes_ageProcreer femmes_allaitantes femmesEnceintes_Enfants">À limiter à 1 fois tous les deux mois</td>
-            <td headers="poissons_eauDouce autres">À limiter à deux fois par mois</td>
+            <th id="poissons_eauDouce">Poissons d’eau douce fortement bioaccumulateurs (anguille, barbeau, brème, carpe,
+                silure)</th>
+            <td colspan="1" headers="poissons_eauDouce population">À limiter à 2 fois par mois</td>
+            <td colspan="4" headers="poissons_eauDouce fillettesAdolescentes femmes_ageProcreer femmes_allaitantes femmesEnceintes_Enfants">
+                À limiter à 1 fois tous les deux mois</td>
+            <td colspan="1" headers="poissons_eauDouce autres">À limiter à deux fois par mois</td>
         </tr>
         <tr>
             <th id="poissons_predateurs">Poissons prédateurs sauvages***</th>
-            <td headers="poissons_predateurs population fillettesAdolescentes femmes_ageProcreer">Pas de recommandation spécifique</td>
-            <td headers="poissons_predateurs femmes_allaitantes femmesEnceintes_Enfants">À limiter</td>
-            <td headers="poissons_predateurs autres">Pas de recommandation spécifique</td>
+            <td class="color" colspan="3" rowspan="2" headers="poissons_predateurs espadon_marlin_siki_requin_lamproie population fillettesAdolescentes femmes_ageProcreer">Pas de recommandation
+                spécifique</td>
+            <td class="color" colspan="2" headers="poissons_predateurs femmes_allaitantes femmesEnceintes_Enfants">À limiter</td>
+            <td class="color" colspan="1" rowspan="2" headers="poissons_predateurs espadon_marlin_siki_requin_lamproie autres">Pas de recommandation spécifique</td>
         </tr>
         <tr>
             <th id="espadon_marlin_siki_requin_lamproie">Espadon, marlin, siki, requin, lamproie</th>
-            <td headers="espadon_marlin_siki_requin_lamproie population fillettesAdolescentes femmes_ageProcreer">Pas de recommandation spécifique</td>
-            <td headers="espadon_marlin_siki_requin_lamproie femmes_allaitantes femmesEnceintes_Enfants">À éviter</td>
-            <td headers="espadon_marlin_siki_requin_lamproie autres">Pas de recommandation spécifique</td>
+            <!-- <td colspan="3" headers="espadon_marlin_siki_requin_lamproie population fillettesAdolescentes femmes_ageProcreer">Pas de
+                recommandation spécifique</td> -->
+            <td class="color" colspan="2" headers="espadon_marlin_siki_requin_lamproie femmes_allaitantes femmesEnceintes_Enfants">À éviter</td>
+            <!-- <td colspan="1" headers="espadon_marlin_siki_requin_lamproie autres">Pas de recommandation spécifique</td> -->
         </tr>
         <tr>
             <th id="mesures_specifiques">Mesures spécifiques d'hygiène à respecter</th>
-            <td headers="mesures_specifiques population fillettesAdolescentes femmes_ageProcreer femmes_allaitantes">• Cuisson à cœur du poisson de mer frais ou congélation pendant 7 jours dans un congélateur domestique après éviscération rapide du poisson pêché pour une consommation crue
-                • Éviter la consommation de coquillages, s’ils ne proviennent pas d’une zone d’élevage autorisée et contrôlée
-                • Consommation des coquillages et fruits de mer crus dans les deux heures qui suivent la sortie du réfrigérateur</td>
-            <td headers="mesures_specifiques femmesEnceintes_Enfants autres">• Éviter la consommation de poissons crus ou insuffisamment cuits et de poissons fumés
-                • Éviter la consommation de coquillages crus ou peu cuits.
+            <td colspan="4" headers="mesures_specifiques population fillettesAdolescentes femmes_ageProcreer femmes_allaitantes">•
+                Cuisson à cœur du poisson de mer frais ou congélation pendant 7 jours dans un congélateur domestique
+                après éviscération rapide du poisson pêché pour une consommation crue <br>
+                • Éviter la consommation de coquillages, s’ils ne proviennent pas d’une zone d’élevage autorisée et
+                contrôlée <br>
+                • Consommation des coquillages et fruits de mer crus dans les deux heures qui suivent la sortie du
+                réfrigérateur</td>
+            <td colspan="2" headers="mesures_specifiques femmesEnceintes_Enfants autres">• Éviter la consommation de poissons crus
+                ou insuffisamment cuits et de poissons fumés <br>
+                • Éviter la consommation de coquillages crus ou peu cuits. <br>
                 • Éviter la consommation de crustacés décortiqués vendus cuits (cuire soi-même les crustacés)</td>
         </tr>
-        <tfoot>* tout type de conservation (frais, surgelé, fumé, conserve…)
-                ** la truite fumée est une espèce différente de la truite de rivière « classique »
-                *** lotte (baudroie), loup (bar), bonite, anguille, empereur, grenadier, flétan, brochet, dorade, raie, sabre, thon…</tfoot>
+        <tr>
+            <td colspan="7" class="color">* tout type de conservation (frais, surgelé, fumé, conserve…)
+            ** la truite fumée est une espèce différente de la truite de rivière « classique »
+            *** lotte (baudroie), loup (bar), bonite, anguille, empereur, grenadier, flétan, brochet, dorade, raie,
+            sabre, thon…</td>
+        </tr>
     </table>
 
 </body>
